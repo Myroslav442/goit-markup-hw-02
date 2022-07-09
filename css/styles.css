@@ -50,7 +50,9 @@ body {
 .site-nav.list .link:focus {
   color: var(--acent-color);
 }
-
+.head-info {
+    color:var(--primery-text-color); 
+}
 .head-info:hover,
 .head-info:focus {
   color: var(--acent-color); 
@@ -124,6 +126,8 @@ body {
 .team-list {
   list-style: none;
 }
+
+
 /* Кнопки */
 .btn {
   font-family: inherit;
@@ -144,8 +148,14 @@ body {
   background-color: var(--second-back-color);
 }
 .list-information .footer-items {
-  color: var(--white-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .footer-items:focus,.footer-items:hover {
     color:var(--acent-color);
@@ -153,6 +163,11 @@ body {
 .list-information {
   list-style: none;
 }
+.logo-studio-footer {
+    color: var(--white-color);
+}
+
+
 /* Портфоліо роботи */
 .work-list {
   list-style: none;
@@ -171,6 +186,8 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
+
+
 /* Кнопки */
 .filtr .filtr-btn {
   font-family: inherit;
